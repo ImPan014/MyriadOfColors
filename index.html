@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Empresa de Videojuegos</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo-titulo">
+        <div id="logo">
+          <img src="logo.png" alt="Logo de la empresa de videojuegos" />
+        </div>
+        <div id="titulo">
+          <h1>Myriad of colors</h1>
+        </div>
+      </div>
+      <div class="links">
+        <nav>
+          <ul>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="slider">
+        <img src="imagen1.jpg" alt="Imagen 1" />
+        <img src="imagen2.jpg" alt="Imagen 2" />
+        <img src="imagen3.jpg" alt="Imagen 3" />
+      </section>
+
+      <section id="sobre-nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Descripción breve de la empresa de videojuegos y su historia.</p>
+      </section>
+
+      <section id="juegos">
+        <h2>Juegos</h2>
+        <ul>
+          <li><a href="#">Juego 1</a></li>
+          <li><a href="#">Juego 2</a></li>
+          <li><a href="#">Juego 3</a></li>
+          <li><a href="#">Juego 4</a></li>
+        </ul>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje"></textarea><br />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Derechos reservados © 2023 Empresa de Videojuegos</p>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>
